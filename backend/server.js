@@ -23,12 +23,10 @@ const app = express();
 
 // app.use(helmet());
 app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://college-admission-portal-1.onrender.com'
-  ],
+  origin: 'https://college-admission-portal-1.onrender.com',
   credentials: true
 }));
+
 
 // app.use(morgan('dev'));
 

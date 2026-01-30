@@ -36,7 +36,7 @@ app.use(express.json());
 
 // app.use('/uploads', express.static('uploads'));
 
-// API Routes
+
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/applications', applicationRoutes);
